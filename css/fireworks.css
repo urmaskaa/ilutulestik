@@ -1,0 +1,41 @@
+html, body {
+	margin: 0;	
+	padding: 0;
+}
+			
+body {
+	background: #000 url(../img/tallinna-panoraam.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+	color: #999;
+}
+					
+canvas {
+	cursor: crosshair;
+	display: block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+@font-face {
+    font-family: 'summers_firecrackers_rescalRg';
+    src: url('Happy New One.ttf') format('woff2'),
+         url('Happy New One.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 { 
+	font-family: 'summers_firecrackers_rescalRg';
+	font-size: 100px;
+	text-align: center;
+	line-height: 1em;
+	padding: 0;
+	letter-spacing: -.02em;
+	overflow: hidden; 
+}
